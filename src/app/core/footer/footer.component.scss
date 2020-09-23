@@ -51,6 +51,11 @@ li {
   margin-right: 1rem;
 }
 
+li a.active {
+  color: #ffffff;
+  text-decoration: underline dotted var(--primary);
+}
+
 .link {
   color: #ffffff;
 }
