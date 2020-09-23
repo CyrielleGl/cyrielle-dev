@@ -13,7 +13,6 @@
 
   <!-- nav footer -->
 
-
   <div class="footer-nav">
     <ul>
       <li>
@@ -28,7 +27,6 @@
     </ul>
   </div>
 
-
   <!-- copyright -->
 
   <div class="copyright">
@@ -37,6 +35,14 @@
       <span [innerText]="yearNow"></span>&nbsp;<span [innerText]="appAuthor"></span>
       • Full Stack Developer based in Paris (France)
     </p>
+  </div>
+
+  <!-- back to top -->
+
+  <div class="triangle img-center" [ngClass]="{'show-scrollTop': windowScrolled}">
+    <a class="back-to-top" (click)="scrollToTop()" title="Back to top">
+      <i class="fa fa-arrow-up hidden-xs"></i>
+    </a>
   </div>
 
 </footer>
