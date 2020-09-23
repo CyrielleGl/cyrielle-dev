@@ -1,10 +1,12 @@
 .footer-style {
-  background-color: var(--primary);
+  background-color: var(--third);
 }
 
 .social {
   text-align: center;
   font-size: 1.4rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .fab {
@@ -14,6 +16,15 @@
 }
 
 .fab:hover {
-  background-color: var(--third);
-  border-radius: 50%;
+  color: var(--fourth);
+}
+
+.copyright {
+  color: var(--text-third);
+  font-family: "Varela Round";
+  font-size: 0.7rem;
+  font-weight: lighter;
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }

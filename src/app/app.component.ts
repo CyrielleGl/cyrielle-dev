@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { UtilsService } from './shared/services/utils/utils.service';
 
 @Component({
@@ -6,13 +6,14 @@ import { UtilsService } from './shared/services/utils/utils.service';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
 
   title = 'cyrielledev';
+  yearNow = new Date().getFullYear().toString();
+  appAuthor = 'Cyrielle Gallou';
 
   constructor(private utilsService: UtilsService) {}
 
-  // tslint:disable-next-line: use-lifecycle-interface
   ngOnInit(): void {
     this.utilsService.initFaIcons();
   }
