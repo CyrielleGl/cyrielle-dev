@@ -1,1 +1,33 @@
-<p>navbar works!</p>
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark" #stickyMenu [class.sticky] = "sticky">
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['']" [routerLinkActive]="['active']">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['']" [routerLinkActive]="['active']">Experience</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['']" [routerLinkActive]="['active']">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['']" [routerLinkActive]="['active']">Skills</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['']" [routerLinkActive]="['active']">Education</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['']" [routerLinkActive]="['active']">Reference</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['']" [routerLinkActive]="['active']">Contact</a>
+      </li>
+    </ul>
+  </div>
+
+</nav>
