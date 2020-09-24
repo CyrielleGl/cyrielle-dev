@@ -1,0 +1,42 @@
+.news-bloc {
+  text-align: center;
+}
+
+.card-header {
+  color: var(--text-primary);
+}
+
+a {
+  text-decoration: none;
+}
+
+/* mobile screens */
+@media screen and (max-width: 767px)
+{
+  main {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .news-bloc {
+    text-align: center;
+    display: inline-block;
+  }
+}
+
+/* tablet screens */
+
+@media screen and (min-width: 768px) and (max-width: 959px)
+{
+  main {
+    padding-right: 3rem;
+    padding-left: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .news-bloc {
+    text-align: center;
+    display: inline-block;
+  }
+}
