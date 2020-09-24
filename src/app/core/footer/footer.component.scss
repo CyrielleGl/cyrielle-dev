@@ -47,7 +47,7 @@ li {
 
 li a.active {
   color: #ffffff;
-  text-decoration: underline dotted var(--primary);
+  border-bottom: 2px dotted var(--primary);
 }
 
 .link {
