@@ -1,4 +1,38 @@
 /* Intro */
+.intro {
+  color: var(--text-secondary);
+}
+
+.jumbotron {
+  background-color: var(--third-transp);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-bottom: 1rem;
+}
+
+.lead {
+  font-size: 1rem;
+  padding-top: 1rem;
+}
+
+hr.my-4 {
+  border-top: 1px solid #ffffff;
+}
+
+.btn {
+  font-size: 1rem;
+}
+
+/* Img developer */
+
+.img-dev {
+  width: 25rem;
+}
+
+.copyright-icon {
+  font-size: 0.6rem;
+  margin-bottom: 2rem;
+}
 
 /* Blocs News */
 
