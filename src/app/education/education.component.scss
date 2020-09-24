@@ -1,0 +1,25 @@
+.education {
+  text-align: justify;
+}
+
+.title-h2 {
+  text-align: center;
+  color: var(--primary);
+  padding-bottom: 2rem;
+}
+
+button:hover {
+  text-decoration: none;
+}
+
+button:active {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.badge {
+  position: absolute;
+  font-size: 0.6rem;
+  margin-left: 0.5rem;
+  margin-top: 1rem;
+}
