@@ -1,6 +1,7 @@
 .img-overlay {
     position: relative;
     width: 100%;
+    margin-bottom: 5rem;
 }
 
 .img-overlay .image {
@@ -53,7 +54,7 @@
   color: #fff!important;
   margin-right: auto;
   margin-left: auto;
-  background-image: -webkit-linear-gradient(left,var(--primary),#1ba4a4);
+  background-image: -webkit-linear-gradient(left, var(--primary), #1ba4a4);
 }
 
 .btn:hover {
