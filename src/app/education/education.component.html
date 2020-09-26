@@ -5,13 +5,24 @@
       <h2>Education</h2>
     </div>
 
-    <div class="accordion" id="accordionExample">
+    <!-- Intro -->
+
+    <div class="intro-education">
+      <p>
+        Retrouvez ici mes formations et diplômes. Pour plus de détails, cliquez sur chaque tiroir.
+      </p>
+    </div>
+
+    <!-- Accordion -->
+
+    <div class="accordion md-accordion" id="accordionExample">
       <div class="card">
         <div class="card-header" id="headingOne">
           <h2 class="mb-0">
             <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
               Master Architecture & Big Data
             <span class="badge badge-primary">En cours</span> <!-- badge En cours -->
+            <i class="fas fa-angle-down rotate-icon"></i>
             </button>
           </h2>
         </div>
@@ -29,6 +40,7 @@
           <h2 class="mb-0">
             <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
               Master Marketing & Communication
+            <i class="fas fa-angle-down rotate-icon"></i>
             </button>
           </h2>
         </div>
@@ -46,6 +58,7 @@
           <h2 class="mb-0">
             <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
               DEUG Lettres Modernes
+            <i class="fas fa-angle-down rotate-icon"></i>
             </button>
           </h2>
         </div>
@@ -58,7 +71,26 @@
           </div>
         </div>
       </div>
+      <div class="card">
+        <div class="card-header" id="headingFour">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              Baccalauréat (L)
+            <i class="fas fa-angle-down rotate-icon"></i>
+            </button>
+          </h2>
+        </div>
+        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+          <div class="card-body">
+            <p>2009 - Bac général Littéraire</p>
+            <p><b>Lycée :</b> Claude Monet (Paris 13)</p>
+
+            <p><b>Options :</b> Anglais, Arts plastiques</p>
+          </div>
+        </div>
+      </div>
     </div>
 
   </div>
+
 </main>
