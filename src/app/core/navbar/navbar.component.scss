@@ -15,11 +15,12 @@
   border-bottom: #dddddd solid 0.06rem;
 }
 
+.bg-primary {
+  background-image: -webkit-linear-gradient(left, #1ba4a4, var(--primary));
+}
+
 .nav-link {
   font-family: "Varela Round";
   font-size: 0.9rem;
 }
 
-.nav-link:hover {
-  background-color: var(--secondary);
-}
