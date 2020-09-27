@@ -1,7 +1,18 @@
+/* Intro */
+
+.title-h2 {
+  text-align: center;
+  color: var(--primary);
+  padding-bottom: 2rem;
+}
+
+/* Blocs projets */
+
 .img-overlay {
     position: relative;
     width: 100%;
     margin-bottom: 5rem;
+    border: 1px solid #f5f6f7
 }
 
 .img-overlay .image {
