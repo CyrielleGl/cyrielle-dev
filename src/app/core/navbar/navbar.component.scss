@@ -16,7 +16,7 @@
 }
 
 .bg-primary {
-  background-image: -webkit-linear-gradient(left, #1ba4a4, var(--primary));
+  background-image: -webkit-linear-gradient(left, var(--fifth), var(--primary));
 }
 
 .nav-link {
@@ -24,3 +24,8 @@
   font-size: 0.9rem;
 }
 
+.navbar-dark .navbar-toggler {
+  color: rgba(255, 255, 255, 0.5);
+  border: none;
+  font-size: 1.5rem;
+}
